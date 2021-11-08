@@ -1,19 +1,55 @@
 ``pkginfo`` Changelog
 =====================
 
+1.7.1 (2021-07-09)
+------------------
+
+- Use Python3 to build docs, and fix doctest examples to use Python3-
+  compatible syntax.
+  LP #1933322
+
+1.7.0 (2021-01-16)
+------------------
+
+- Add support for Python 3.9
+
+- Drop support for Python 3.5.
+
+1.6.1 (2020-10-26)
+------------------
+
+- Adjust test classifiers to match supported Python versions. LP #1901127
+
+1.6.0 (2020-10-20)
+------------------
+
+- Add support for Python 3.8.
+  LP #1869854.
+
+- Drop support for Python 3.4.
+
+- Update tests to match setuptools' change, no longer reporting metadata
+  version for installed packages w/o explicit metadata.
+  LP #1870197.
+
 1.5.0.1 (2019-01-08)
 --------------------
 
-- Fix broken 'sdist'. LP #1639585.
+- Fix broken 'sdist'.  LP #1639585.
 
 1.5.0 (2019-01-07)
 ------------------
 
-- Fix 'console_scripts' entry point syntax. LP #1810734.
+- Fix 'console_scripts' entry point syntax.  LP #1810734.
 
-- Add support for JSON output from the CLI.
+- Add support for JSON output from the CLI.  LP #1700580.
 
-- Add support for installed wheels.  E.g., 'dist-info/' dirs.
+- Add support for installed wheels.  E.g., 'dist-info/' dirs.  LP #1700200.
+
+- Harden metadata extraction against unexpected encodings.  LP #1780454.
+
+- Update tests to match pip/setuptools' use of new metadata version.
+  LP #1772274.
 
 - Add support for Python 3.6 and 3.7.
 
