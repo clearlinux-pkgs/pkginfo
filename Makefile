@@ -1,5 +1,5 @@
 PKG_NAME := pkginfo
-URL = https://files.pythonhosted.org/packages/23/3f/f2251c754073cda0f00043a707cba7db103654722a9afed965240a0b2b43/pkginfo-1.7.1.tar.gz
+URL = https://files.pythonhosted.org/packages/53/d9/4e2eb4da1841689cf6ace8bb23fae6ac546b46c71f127ffbd894715b59e4/pkginfo-1.8.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
