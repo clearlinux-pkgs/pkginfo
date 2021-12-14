@@ -4,7 +4,7 @@
 #
 Name     : pkginfo
 Version  : 1.8.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/54/6a/42056522e1d79fa9768712782f37365ef786d905e4efeed6db44cad1803b/pkginfo-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/54/6a/42056522e1d79fa9768712782f37365ef786d905e4efeed6db44cad1803b/pkginfo-1.8.2.tar.gz
 Summary  : Query metadatdata from sdists / bdists / installed packages.
